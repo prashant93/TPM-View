@@ -33,8 +33,14 @@ p {
 .captured {
   color: black;
 }
-.candidate-icon {
+.candidate-icon{
   transform: scale(2);
+}
+.candidate-paginate {
+
+transform: scale(3);
+margin-right: 30px;
+margin-left: 30px;
 }
 .candidate-detail {
   padding: 10px;
@@ -65,4 +71,24 @@ p {
 }
 .candidate-pic {
   padding: 20px 10px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 250px 400px 200px 250px;
+  grid-gap: 0;
+  background-color: #ffffff;
+  max-height: 200px;
+  padding: 10px 15px 5px 15px;
+  text-align: center;
+}
+
+.header1 {
+  display: grid;
+  grid-template-columns: 650px 100px auto;
+  grid-gap: 0;
+  max-height: 200px;
+  font-size: 13px;
+  padding: 10px 15px 5px 15px;
+  text-align: center;
 }
