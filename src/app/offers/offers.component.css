@@ -83,6 +83,11 @@ margin-left: 30px;
   text-align: center;
 }
 
+
+.card-container:active{
+  outline: none;
+  border: solid 1.5px #629fcb !important;
+ }
 .header1 {
   display: grid;
   grid-template-columns: 650px 100px auto;
