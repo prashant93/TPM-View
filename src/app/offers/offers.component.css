@@ -1,6 +1,6 @@
 .card-container {
   display: grid;
-  grid-template-columns: 250px 100px 100px 100px 160px 100px 100px auto;
+  grid-template-columns: 250px 100px 100px 100px 160px 100px 100px 250px;
   grid-gap: 20px;
   background-color: #ffffff;
   max-height: 200px;
@@ -16,15 +16,20 @@ p {
 .caption {
   display: block;
 }
-.user-icon,
-.user-detail,
-.name {
+.hire-icon {
+  color: #50c350;
+}
+.candidate-icon,
+.candidate-detail,
+.name,
+.leads,
+.captured {
   color: black;
 }
-.user-icon {
+.candidate-icon {
   transform: scale(2);
 }
-.user-detail {
+.candidate-detail {
   float: right;
 }
 .name {

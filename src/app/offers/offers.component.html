@@ -1,12 +1,12 @@
 <div class="card-container">
   <div>
     <mat-icon
-      class="user-icon"
+      class="candidate-icon"
       aria-hidden="false"
-      aria-label="user"
+      aria-label="candidate"
       fontIcon="account_circle"
     ></mat-icon>
-    <div class="user-detail">
+    <div class="candidate-detail">
       <p class="name">Kunjan Kumar</p>
       <p class="position">Director, Housing and Development</p>
       <p class="location">New Delhi</p>
@@ -14,22 +14,40 @@
   </div>
   <div>
     <mat-icon
+      class="hire-icon"
       aria-hidden="false"
-      aria-label="user"
+      aria-label="candidate"
       fontIcon="thumb_up"
     ></mat-icon>
     <span class="caption">Hire</span>
     <span class="caption">1 Jul 2018</span>
-
   </div>
   <div>Awaiting Feedback</div>
-  <div>Undecided</div>
-  <div>1 Jul 2018</div>
-  <div>7</div>
-  <div>3</div>
   <div>
-    The Shiba Inu is the smallest of the six original and distinct spitz breeds
-    of dog from Japan. A small, agile dog that copes very well with mountainous
-    terrain, the Shiba Inu was originally bred for hunting.
+    <mat-icon
+      aria-hidden="false"
+      aria-label="candidate"
+      fontIcon="thumb_down"
+    ></mat-icon>
+    <span class="caption">No Hire</span>
+    <span class="caption">1 Jul 2018</span>
+  </div>
+  <div>
+    <mat-icon
+      aria-hidden="false"
+      aria-label="candidate"
+      fontIcon="date_range"
+    ></mat-icon>
+    <span class="caption">1 Jul 2018</span>
+  </div>
+  <div class="leads">7</div>
+  <div class="captured">3</div>
+  <div>
+    <p>No Comments</p>
+    <mat-icon [matMenuTriggerFor]="menu">more_vert</mat-icon>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>EDIT COMMENT</button>
+      <button mat-menu-item>HIDE CANDIDATE</button>
+    </mat-menu>
   </div>
 </div>
