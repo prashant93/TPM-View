@@ -1,17 +1,14 @@
 .card-container {
   display: grid;
-  grid-template-columns: 250px 100px 100px 100px 160px 100px 100px 250px;
-  grid-gap: 20px;
+  grid-template-columns: 250px 100px 100px 100px 100px 100px 100px 250px;
+  grid-gap: 0;
   background-color: #ffffff;
   max-height: 200px;
-  padding: 15px 15px 5px 15px;
+  padding: 10px 15px 5px 15px;
   text-align: center;
 }
 .seperator {
-  border-left: 1px solid #c6c6cc5e;
-  height: 50px;
-  margin-top: 10px;
-
+  border-right: 1px solid #c6c6cc5e;
 }
 
 .card-container,
@@ -19,7 +16,7 @@
   color: #909095;
 }
 p {
-  margin: 0;
+  margin: 5px;
 }
 .caption {
   font-size: 13px;
@@ -54,8 +51,17 @@ p {
   font-weight: 500;
 }
 .position,
-.location {
+.location,
+.comments {
   font-size: 13px;
+}
+.comments {
+  float: left;
+}
+.leads,
+.captured {
+  line-height: 80px;
+  font-size: 20px;
 }
 .candidate-pic {
   padding: 20px 10px;
