@@ -134,14 +134,20 @@ line-height: 80px;text-align: left;
         class="candidate-icon"
         aria-hidden="false"
         aria-label="candidate"
-        fontIcon={{candidateDetail.candidateDetails.profilePic}}
-      ></mat-icon>
+        >{{ candidateDetail.candidateDetails.profilePic }}</mat-icon
+      >
     </div>
 
     <div class="candidate-detail">
-      <p class="name">{{candidateDetail.candidateDetails.firstName}} {{candidateDetail.candidateDetails.lastName}}</p>
-      <p class="position">{{candidateDetail.candidateDetails.position}}, {{candidateDetail.candidateDetails.organization}}</p>
-      <p class="location">{{candidateDetail.candidateDetails.address}}</p>
+      <p class="name">
+        {{ candidateDetail.candidateDetails.firstName }}
+        {{ candidateDetail.candidateDetails.lastName }}
+      </p>
+      <p class="position">
+        {{ candidateDetail.candidateDetails.position }},
+        {{ candidateDetail.candidateDetails.organization }}
+      </p>
+      <p class="location">{{ candidateDetail.candidateDetails.address }}</p>
     </div>
   </div>
   <div class="seperator">
