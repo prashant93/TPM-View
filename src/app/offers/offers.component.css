@@ -6,6 +6,7 @@
   max-height: 200px;
   padding: 10px 15px 5px 15px;
   text-align: center;
+  margin-bottom: 20px;
 }
 .seperator {
   border-right: 1px solid #c6c6cc5e;
@@ -33,14 +34,13 @@ p {
 .captured {
   color: black;
 }
-.candidate-icon{
+.candidate-icon {
   transform: scale(2);
 }
 .candidate-paginate {
-
-transform: scale(3);
-margin-right: 30px;
-margin-left: 30px;
+  transform: scale(3);
+  margin-right: 30px;
+  margin-left: 30px;
 }
 .candidate-detail {
   padding: 10px;
@@ -83,11 +83,10 @@ margin-left: 30px;
   text-align: center;
 }
 
-
-.card-container:active{
+.card-container:active {
   outline: none;
   border: solid 1.5px #629fcb !important;
- }
+}
 .header1 {
   display: grid;
   grid-template-columns: 650px 100px auto;
