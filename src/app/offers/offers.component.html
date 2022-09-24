@@ -152,13 +152,13 @@ line-height: 80px;text-align: left;
   </div>
   <div class="seperator">
     <mat-icon
-      class="hire-icon"
+    [ngClass]="{'hire-icon': {{candidateDetail.isHired}} === true}"
       aria-hidden="false"
       aria-label="candidate"
       fontIcon="thumb_up"
     ></mat-icon>
     <span class="caption">Hire</span>
-    <span class="caption">1 Jul 2018</span>
+    <span class="caption">{{candidateDetail.hireDate}}</span>
   </div>
   <div class="seperator" style="padding:20px">
     <span class="caption">Awaiting <br /></span>
